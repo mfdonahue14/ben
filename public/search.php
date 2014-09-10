@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>404</title>
-    <meta charset="utf-8">
-	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
-	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-	<meta name="description" content="Your description">
-	<meta name="keywords" content="Your keywords">
-	<meta name="author" content="Your name">
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/superfish.js"></script>
+    <title>Search results</title>
+    <meta charset="utf-8">  
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">    
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="search/search.js"></script>
+ 	<script type="text/javascript" src="js/superfish.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/jquery.cookie.js"></script>	
 	<script>		
@@ -31,9 +32,8 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <link rel="stylesheet" href="css/docs.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
-      <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
-    
   <![endif]-->
 </head>
 
@@ -72,32 +72,17 @@
 <div class="bg-content">  
 
 <!--============================== content =================================-->
-
-<div id="content"> 
+<section id="content">
   <div class="container">
-    <div class="row ">
-    
-<div class="span12">
-<div class="block-404">  
-      <img class="img-404" src="img/slide-1.jpg" alt="">       
-    	<div class="box-404">
-        	<h2>Sorry!</h2>
-<h3>404 page not found</h3>        	
-           
-            <p>Nam liber tempor cum soluta nobis eleifend option congue nihil doming id quod mazim placerat facer possim assum orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy euismod.</p>
-           
-        	<form id="form-search" action="search.php" method="GET" accept-charset="utf-8" >
-            	<div class="clearfix">
-                    <input type="text" name="s" onBlur="if(this.value=='') this.value=''" onFocus="if(this.value =='' ) this.value=''" >
-                    <a href="#" onClick="document.getElementById('form-search').submit()" class="btn btn-1 ">Search</a>
-                </div>
-            </form>
-		</div>
-     </div>
-   </div>
-  </div>
+    <div class="row">
+    	<div class="span12">
+            <h3>Search result:</h3>
+            <div id="search-results"></div>
+		</div>  
+    </div>        
+
 </div>  
-</div>
+</section>
 </div>
 <!--============================== footer =================================-->
 <footer>
@@ -108,7 +93,7 @@
           <li><a class="icon-3" href="#"></a></li>
           <li><a class="icon-4" href="#"></a></li>
         </ul>
-    <div class="privacy pull-left">Website Template designed by <a href="http://www.templatemonster.com/" target="_blank" rel="nofollow">TemplateMonster.com</a> </div>
+    <div class="privacy pull-left">Website Template designed by <a href="http://www.templatemonster.com " target="_blank">TemplateMonster.com </a> </div>
   </div>
     </footer>
 <script type="text/javascript" src="js/bootstrap.js"></script>
