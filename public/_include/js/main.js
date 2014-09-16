@@ -77,10 +77,13 @@ CHAKRA.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '_include/img/slider-images/image01.jpg', title : '<div class="slide-content">Chakra</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content">Responsive Design</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image03.jpg', title : '<div class="slide-content">FullScreen Gallery</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image04.jpg', title : '<div class="slide-content">Showcase Your Work</div>', thumb : '', url : ''}  
+											{image : '_include/img/slider-images/ben-1.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/ben-2.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/ben-3.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/ben-4.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/ben-5.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},  
+											{image : '_include/img/slider-images/ben-6.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/ben-7.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
 									],
 									
 		// Theme Options			   
